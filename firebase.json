@@ -1,0 +1,13 @@
+{
+    "storage": {
+      "rules": "path/to/your/storage.rules",
+      "cors": [
+        {
+          "origin": ["http://localhost:8000"], 
+          "method": ["GET", "POST", "PUT"], 
+          "maxAgeSeconds": 3600
+        }
+      ]
+    }
+  }
+  
